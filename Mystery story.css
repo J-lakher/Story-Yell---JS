@@ -1,0 +1,40 @@
+/* Typography */
+body {
+    font-family: Arial, sans-serif; /* Example: Choose a base font for body text */
+}
+
+h1 {
+    font-family: "Mystery Script", cursive; /* Example: Use a decorative font for the title */
+    font-size: 2em;
+    text-align: center;
+    color: #333; /* Darker color for better contrast */
+}
+
+#story-form label {
+    color: #666; /* Lighter color for labels */
+}
+
+/* Borders and Rounded Corners */
+#story-form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#story-form button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 12px 20px; /* Adjust padding for larger button size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#story-form button:hover {
+    background-color: #45A049; /* Darker green on hover */
+}
+
+/* Optional: Background Gradient */
+body {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8)); /* Example gradient */
+}
